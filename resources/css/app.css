@@ -1,0 +1,8 @@
+@import 'errors.css';
+@import 'canalTro.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+

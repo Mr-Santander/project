@@ -1,0 +1,142 @@
+.container{
+    @apply max-w-7xl mx-auto px-2;
+}
+.menu{
+    @apply max-w-full mx-auto px-2 ; 
+}
+
+@media(min-width:640px){
+    .container{
+        @apply px-6;
+    }
+    .menu{
+        @apply px-6;
+    }
+}
+
+@media(min-width:1024px){
+    .container{
+        @apply px-8;
+    }
+    .menu{
+        @apply px-8;
+    }
+}
+
+body {
+    background-color: black;
+}
+
+.firtsa{
+    margin: 50px 0px;
+    color: #fff;
+}
+
+.firtsa a {
+    padding: 0px 15px;
+}
+
+.card_programacion{
+    border: 0px solid !important;
+}
+
+.card_programacion p{
+    color: rgb(38, 38, 38);
+    margin: 0px !important;
+}
+.card_programacion .card-body{
+    padding: 10px !important;
+}
+
+.card_programacion .card-footer{
+    background-color: #E30025;
+    color: #fff;
+    font-size: 18px;
+    padding: 3px 10px !important;
+}
+
+.noticias{
+    margin-top: 5rem;
+}
+.card_noticias img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+.card_boletin img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+.card_boletin-c img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+
+.card_boletin-c2 img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+.a_hover{
+    transition: transform .5s;
+}
+
+.a_hover:hover{
+    transform: scale(1.1);
+}
+
+#footer {
+    background: #000;
+    padding: 0 0 30px 0;
+    color: #eee;
+    font-size: 14px;
+}
+
+#footer .footer-top {
+    background: #111;
+    padding: 60px 0 30px 0;
+}
+.pe-2 {
+    padding-right: 0.5rem !important;
+  }
+
+  .page_404{ padding:40px 0; background:#000; font-family: 'Arvo', serif;
+  }
+  
+  .page_404  img{ width:100%;}
+  
+  .four_zero_four_bg{
+   
+   background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+      height: 400px;
+      background-position: center;
+   }
+   
+   
+   .four_zero_four_bg h1{
+   font-size:80px;
+   }
+   
+    .four_zero_four_bg h3{
+               font-size:80px;
+               }
+               
+               .link_404{			 
+      color: #fff!important;
+      padding: 10px 20px;
+      background: #39ac31;
+      margin: 20px 0;
+      display: inline-block;}
+      .contant_box_404{ margin-top:-50px;}
+
+  
