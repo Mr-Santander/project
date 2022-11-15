@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/troplusdev/public_html/
-    - /bin/rsync -av public/ $DEPLOYPATH
+    - /bin/rsync -a --exclude 'index.php' public/ $DEPLOYPATH
