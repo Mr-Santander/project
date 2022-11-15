@@ -1,7 +1,7 @@
 <x-app-layout>
     <div class="mt-32 container ">
-        <div class="grid grid-cols-3 gap-4">
-            <div class="col-span-2 ">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="col-span-1 md:col-span-1 lg:col-span-2 ">
                 <h1 class="text-white text-4xl">{{$post->title}}</h1>
                 <h2 class="text-white">{{$fecha_hoy}}</h2>
                 <div>
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="  bg-green-400">
+            <div class="col-span-1" >
                 <div class=" grid-rows-4 gap-8">
                     <h1 class="ml-2 text-white font-semibold text-2xl">ULTIMOS BOLETINES</h1>
 
